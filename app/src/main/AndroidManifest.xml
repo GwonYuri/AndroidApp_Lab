@@ -9,14 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidApp_Lab">
-        <activity android:name=".OrderActivity"></activity>
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/ic_minus.xml" />
+
+        <activity android:name=".MainActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
