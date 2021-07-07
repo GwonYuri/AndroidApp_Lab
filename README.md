@@ -1,4 +1,4 @@
-# AndroidApp_Lab
+# AndroidApp_Lab1
 
 ## 4.1 Clickable images
 
